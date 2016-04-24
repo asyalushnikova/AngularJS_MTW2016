@@ -1,0 +1,104 @@
+[  
+    {
+        "id": 1,
+        "artist": "Evgeny Sidorov",
+        "from": "St. Peterburg, Russia",
+        "style": 
+            [
+                {
+                    "name": "chicano"
+                },
+                {
+                    "name": "lettering"
+                },
+                {
+                    "name": "black-and-grey"
+                }
+            ],
+        "web": "http://vk.com/jerrytattoo",
+        "image": 
+            [
+                {
+                    "url": "evgeny_sidorov/esidorov_01.jpg"
+                },
+                {
+                    "url": "evgeny_sidorov/esidorov_02.jpg"
+                },
+                {
+                    "url": "evgeny_sidorov/esidorov_03.jpg"  
+                },
+                {
+                    "url": "evgeny_sidorov/esidorov_04.jpg"
+                },
+                {
+                    "url": "evgeny_sidorov/esidorov_05.jpg"
+                }
+            ] 
+    },
+    {
+        "id": 2,
+        "artist": "Igor Terentyev",
+        "from": "Moscow, Russia",
+        "style": 
+            [
+                {
+                    "name": "chicano"
+                },
+                {
+                    "name": "black-and-grey"
+                }
+            ],
+        "web": "http://tattooproff.ru/",
+        "image": 
+            [
+                {
+                    "url": "igor_terentyev/iterentyev_01.jpg"
+                },
+                {
+                    "url": "igor_terentyev/iterentyev_02.jpg"
+                },
+                {
+                    "url": "igor_terentyev/iterentyev_03.jpg"  
+                },
+                {
+                    "url": "igor_terentyev/iterentyev_04.jpg"
+                },
+                {
+                    "url": "igor_terentyev/iterentyev_05.jpg"
+                }
+            ] 
+    },
+    {
+        "id": 3,
+        "artist": "Iwan Yug",
+        "from": "Moscow, Russia",
+        "style":
+            [
+                {
+                    "name": "realism"
+                },
+                {
+                    "name": "portrait"
+                }
+            ],
+        "web": "http://www.iwan-yug.com",
+        "image": 
+            [
+                {
+                    "url": "iwan_yug/iyug_01.jpg"
+                },
+                {
+                    "url": "iwan_yug/iyug_02.jpg"
+                },
+                {
+                    "url": "iwan_yug/iyug_03.jpg"  
+                },
+                {
+                    "url": "iwan_yug/iyug_04.jpg"
+                },
+                {
+                    "url": "iwan_yug/iyug_05.jpg"
+                }
+            ] 
+    }
+]

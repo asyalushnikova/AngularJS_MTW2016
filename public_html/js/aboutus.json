@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "address": "1 Tishinskaya pl.",
+        "city": "Moscow",
+        "country": "Russia",
+        "zip": "123056",
+        "contact":
+            [
+                {
+                    "name": "Alexander Invanov",
+                    "email": "a_ivanov@mtw.com",
+                    "type": "contact for individual ticket(s)"
+                },
+                {
+                    "name": "Boris Petrov",
+                    "email": "b_petrov@mtw.com",
+                    "type": "contact for group ticket(s)"
+                },
+                {
+                    "name": "Constantine Sidorov",
+                    "email": "c_sidorov@mtw.com",
+                    "type": "contact for other business matters"
+                }
+            ]
+    }
+]

@@ -1,0 +1,31 @@
+<!-- Example row of columns -->
+<div class="row">
+    <div class="col-lg-12">
+        <h2>~ About Us ~</h2>
+        <br>
+        <div ng-repeat="about in aboutus">
+            <p class="lead">
+            <strong>Moscow International Tattoo Week</strong> - is the annual tattoo convention held 
+            in main cities of Russia, related to the general principles of the professional level 
+            of organization and maximum comfort for the artists and guests. Our mission is to unite the 
+            tattoo artists from different countries and Russian cities in order to create a creative 
+            atmosphere within professional communication and competitive programs.
+            <br>
+            All tattoo activities within MTW 3-day conference are supported by leading manufacturers 
+            of professional tattoo equipment and tattoo artists of Russia and abroad.
+            <br>
+            Today, we present the largest manufacturers of tattoo equipment, that help to realize the most 
+            courageous ideas: <strong>TattooPharma, Excalibur, Intense, Eternal, Nocturnal Tattoo Ink, 
+            World FamousTattoo Ink, Bishop Rotary, Cheyenne, Eikon Device and Kwadron.</strong>
+            </p> 
+            <h3 style="color: darkred; font-weight: bold;">{{about.address}},</h3>
+            <h4 style="color: darkred; font-weight: bold;">{{about.city}}, {{about.country}} {{about.zip}}</h4>
+            <br> 
+            <div ng-repeat="contact in about.contact">
+                <ul style="font-size: 18px;">
+                    <li>{{contact.type}} :: {{contact.name}} at {{contact.email}}</li>
+                </ul>
+            </div>
+        </div>      
+    </div>
+</div>
